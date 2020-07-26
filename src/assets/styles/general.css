@@ -1,0 +1,37 @@
+.clearfix:after{
+  content:'';
+  display: block;
+  height:0;
+  visibility: visible;
+  clear:both;
+  overflow: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+.wrapper{
+    width:100%;
+}
+html{
+    line-height: initial;
+}
+body{
+    font-size: 14px;
+}
+img{
+    width:100%;
+    vertical-align: top;
+}
+
+@media screen and (min-width:992px){
+    .wrapper{
+        width:64%;
+        margin:0 auto;
+    }
+    .col-lg-hidden{
+        display: block;
+    }
+    .header-top{
+        padding:40px!important
+    }
+}
